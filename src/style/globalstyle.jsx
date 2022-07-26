@@ -13,12 +13,14 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     min-height: 100%;
-    min-height: -webkit-fill-available;    
+    min-height: -webkit-fill-available;
+
+    overflow: hidden;
 
     font-family: 'Josefin Sans', sans-serif;
     
     color: #fff;
-    background-color: #111;
+    background-color: #fff;
   }
 
   a {
