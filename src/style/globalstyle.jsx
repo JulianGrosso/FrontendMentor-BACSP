@@ -19,8 +19,14 @@ const GlobalStyle = createGlobalStyle`
 
     font-family: 'Josefin Sans', sans-serif;
     
-    color: #fff;
+    color: #000;
     background-color: #fff;
+
+    @media (max-width: 768px) {
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+	  }
   }
 
   a {
