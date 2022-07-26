@@ -14,6 +14,8 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
     min-height: 100%;
     min-height: -webkit-fill-available;    
+
+    font-family: 'Josefin Sans', sans-serif;
     
     color: #fff;
     background-color: #111;
